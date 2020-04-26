@@ -2,11 +2,11 @@
   "name": "e2e-library",
   "version": "1.0.0",
   "description": "\" e2e library \"",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
   },
   "repository": {
@@ -20,6 +20,9 @@
     "url": "https://github.com/udhayak4251/e2e-library-angular/issues"
   },
   "homepage": "https://github.com/udhayak4251/e2e-library-angular#readme",
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "tslint": "^6.1.1",
     "tslint-config-prettier": "^1.18.0",
